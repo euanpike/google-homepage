@@ -1,0 +1,42 @@
+html {
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #222;
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    flex: 0 0 auto;
+    border-style: solid;
+    justify-content: flex-end;
+    height: 3.4rem;
+    align-items: center;
+}
+
+.links {
+    padding-left: 1.4rem;
+}
+
+.navLinks {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.87);
+}
+
+.navLinks:hover {
+    text-decoration: underline;
+}
+
+button {
+    border: none;
+    cursor: pointer;
+}
+
+.applications {
+    width: 30px;
+    height: 30px;
+    background-image: url(//ssl.gstatic.com/gb/images/i1_1967ca6a.png);
+    background-position: -132px -38px;
+    background-color: #fff;
+}

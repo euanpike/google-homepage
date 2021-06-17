@@ -9,10 +9,11 @@ html {
 .header {
     display: flex;
     flex: 0 0 auto;
-    border-style: solid;
     justify-content: flex-end;
     height: 3.4rem;
     align-items: center;
+    color: gray;
+    margin-top: 0.4rem;
 }
 
 .links {
@@ -39,4 +40,49 @@ button {
     background-image: url(//ssl.gstatic.com/gb/images/i1_1967ca6a.png);
     background-position: -132px -38px;
     background-color: #fff;
+    margin-left: 1.4rem;
+}
+
+.avatar {
+    border-radius: 50%;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.logo {
+    margin-top: 16rem;
+}
+
+.searchBar {
+    margin-top: 2rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 580px;
+    border: 0.1px solid #ddd;
+    border-radius: 30px;
+}
+
+.searchBar:hover {
+    box-shadow: 0 1px 6px rgb(32 33 36 / 28%);
+}
+
+.search {
+    width: 90%;
+    border: none;
+    outline: none;
+    font-size: 1.3rem;
+    color: rgb(94, 94, 94);
+    font-weight: 200;
+}
+
+footer {
+    background-color: rgba(0 0 0 .54);
+    padding: 20px;
 }

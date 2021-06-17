@@ -84,6 +84,32 @@ img.avatar {
     font-weight: 200;
 }
 
+.searchButtons {
+    height: 70px;
+    padding-top: 18px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+button {
+    background-color: #f8f9fa;
+    border: 1px solid #f8f8fa;
+    border-radius: 4px;
+    color: #3c4043;
+    margin: 11px 4px;
+    padding: 0px 30px;
+    height: 36px;
+    font-size: 14px;
+}
+
+button:hover {
+    box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
+    color: #202124;
+}
+
 footer {
     flex-direction: row;
     flex-wrap: wrap;
@@ -122,6 +148,10 @@ a {
     padding: 15px;
     white-space: nowrap;
     text-decoration: none;
+}
+
+.link:hover {
+    text-decoration: underline;
 }
 
 .other {

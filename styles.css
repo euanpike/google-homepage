@@ -34,7 +34,7 @@ button {
     cursor: pointer;
 }
 
-.applications {
+#applications {
     width: 30px;
     height: 30px;
     background-image: url(//ssl.gstatic.com/gb/images/i1_1967ca6a.png);
@@ -92,7 +92,7 @@ img.avatar {
     justify-content: space-around;
 }
 
-button {
+.buttons {
     background-color: #f8f9fa;
     border: 1px solid #f8f8fa;
     border-radius: 4px;
@@ -103,7 +103,7 @@ button {
     font-size: 14px;
 }
 
-button:hover {
+.buttons:hover {
     box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
     background-color: #f8f9fa;
     border: 1px solid #dadce0;
@@ -119,6 +119,7 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
+    left: 0;
 }
 
 .top {
